@@ -3,7 +3,7 @@ import { useState } from "react";
 import Button from "./components/Button";
 import Input from "./components/Input";
 
-import { Container, Content, Row } from "./styles/styles";
+import { Container, Content, Row } from "./styles";
 
 const App = () => {
   const [currentNumber, setCurrentNumber] = useState("0");
